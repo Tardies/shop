@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'e-ukraine_head';
+    src: url('../fonts/e-ukrainehead-logo-webfont.woff2') format('woff2'),
+         url('../fonts/e-ukrainehead-logo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'e-ukraine_regular';
+    src: url('../fonts/e-ukraine-regular-webfont.woff2') format('woff2'),
+         url('../fonts/e-ukraine-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#title {
+    font-size: 200%;
+    left: 5%;
+    padding: 0px;
+    text-align: center;
+    display: inline;
+    position: absolute;
+    font-family: 'e-ukraine_head', Arial, sans-serif;
+    margin-top: 12px;
+}
+
+#btn {
+
+    display: block;
+    position: relative;
+    font-family: 'e-ukraine_regular', Arial, sans-serif;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #555555;
+}
+
+#delete-product-btn {
+    display: block;
+    position: relative;
+    font-family: 'e-ukraine_regular', Arial, sans-serif;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #555555;
+}
+
+#menu {
+    position: fixed;
+    width: 90%;
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 100px;
+    top: 0px;
+    left: 0px;
+    border-bottom: 2px solid black;
+}
+
+#content {
+    width: 90%;
+    padding-bottom: 25px;
+    margin-top: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 1%;;
+}
+
+#product {
+    border: 2px solid black;
+    width: 22%;
+    height: 150px;
+    display: inline-block;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 25px; 
+}
+
+#caption {
+    font-family: "e-ukraine_regular", Arial, sans-serif;
+    text-align: center;
+}
+
+footer {
+    font-family: "e-ukraine_head", Arial, sans-serif;
+    text-align: center;
+    font-size: 120%;
+    border-top: 2px solid black;
+    bottom: 0px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#DVD {display:none;}
+#Book {display: none;}
+#Furniture {display: none;}
